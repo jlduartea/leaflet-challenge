@@ -15,15 +15,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 The first task was to visualize an earthquake data set.
 
-1. **Get your data set**
-
-   ![](Images/3-Data.png)
-
-   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. I Visited the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and choose de Past 7 days data set to visualize. 
-
-   ![](Images/4-JSON.png)
-
-2. **Import & Visualize the Data**
+**Import & Visualize the Data**
 
    I Created a map using Leaflet that plots all of the earthquakes from the data set that I choose, based on their longitude and latitude.
 
